@@ -236,7 +236,7 @@
             orignX = _contentInset.left;
             break;
         case UIControlContentHorizontalAlignmentRight:
-            orignX = CGRectGetWidth(self.frame) - ((_indicatorViews.count - 1) * (_pageIndicatorSize.width + _pageIndicatorSpaing) - _pageIndicatorSize.width) - _contentInset.right;
+            orignX = CGRectGetWidth(self.frame) - ((_indicatorViews.count) * (_pageIndicatorSize.width + _pageIndicatorSpaing) - _pageIndicatorSize.width) - _contentInset.right;
             break;
         case UIControlContentHorizontalAlignmentFill:
             orignX = _contentInset.left;
